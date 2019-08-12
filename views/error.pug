@@ -1,0 +1,10 @@
+doctype html
+head
+  title Page Not Found
+  link(rel='stylesheet' href='../static/stylesheets/style.css')
+body
+  h1 #{error.status} Error
+  p #{error.message}
+  br
+  p
+    a.button(href='/books') Home
